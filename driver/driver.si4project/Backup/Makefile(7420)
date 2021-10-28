@@ -1,0 +1,9 @@
+ifneq ($(KERNELRELEASE),)
+
+obj-m := device.o
+
+else
+
+KDIR := 
+all:
+	make -C 
